@@ -6,6 +6,20 @@
 ## Example:
 ### Input:
 ```
+GEN_ALL_POS_MOV_CUT_IF_GAME_OVER 3 3 3 1
+0 2 1
+2 2 1
+0 1 0
+```
+### Output:
+```
+1
+0 2 1
+2 2 1
+0 1 1
+```
+### Input:
+```
 SOLVE_GAME_STATE 3 3 3 2
 1 0 0
 0 0 0
